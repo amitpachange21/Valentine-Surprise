@@ -150,6 +150,9 @@
           Ab toh Yes hi bacha hai 🥺❤️
         </div>
       </div>
+      <p id="noHint">
+        No is a bit shy 😉
+      </p>
     </div>
   </div>
 
@@ -191,6 +194,7 @@
     const noBtn = document.getElementById('noBtn');
     const yesBtn = document.getElementById('yesBtn');
     const finalHint = document.getElementById('finalHint');
+    const noHint = document.getElementById('noHint');
 
     const noTexts = [
       'Are you sure 😠',
@@ -211,6 +215,7 @@
         noBtn.style.display = 'none';
         yesBtn.style.width = "100%";
         finalHint.style.display = 'block';
+        noHint.style.display = 'none';
         return;
       }
 
